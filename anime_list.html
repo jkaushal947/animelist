@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <title>Top 20 All-Time Favorite Anime Characters</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>
+    <body>
+       <h1>Top 20 All-Time Favorite Anime Characters</h1>
+       <img id="0" class="preview normal" src="" alt="preview" /><br />
+          <table border ="1">
+           <tr>
+               <td><img id="1" class="thumb normal" src="images/rin_tohsaka.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="2" class="thumb normal" src="images/pikachu.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="3" class="thumb normal" src="images/sora.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="4" class="thumb normal" src="images/madison_taylor.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="5" class="thumb normal" src="images/yugi_moto.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+           </tr>
+           <tr>
+               <td><img id="6" class="thumb normal" src="images/edward_elric.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="7" class="thumb normal" src="images/shana.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="8" class="thumb normal" src="images/saber.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="9" class="thumb normal" src="images/goku.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="10" class="thumb normal" src="images/duo_maxwell.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+           </tr>
+           <tr>
+               <td><img id="11" class="thumb normal" src="images/natsu_dragneel.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="12" class="thumb normal" src="images/haruhi_suzumiya.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="13" class="thumb normal" src="images/inuyasha.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="14" class="thumb normal" src="images/kagami_hiiragi.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="15" class="thumb normal" src="images/rukia_kuchiki.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+           </tr>
+           <tr>
+               <td><img id="16" class="thumb normal" src="images/levy_mcgarden.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="17" class="thumb normal" src="images/megumin.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="18" class="thumb normal" src="images/korrina.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="19" class="thumb normal" src="images/yuri_nakamura.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+               <td><img id="20" class="thumb normal" src="images/erika_sendo.jpg" alt="anime_character" onmouseover="preview(this)"/></td>
+           </tr>
+       </table>
+       
+       
+        
+        
+        
+        
+        <script>
+        var lastimg =1;
+            document.getElementById(lastimg).src;
+            document.getElementById(lastimg).className = "thumb selected";
+            
+        function preview(img){
+            document.getElementById(lastimg).className = "thumb normal";
+            img.className = "thumb selected";
+            document.getElementById(0).src = img.src;
+            lastimg = img.id
+        }
+        </script>
+    </body>
+</html>

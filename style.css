@@ -37,12 +37,12 @@ td {
     height: 225px;
     width: 150px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .thumb {
-    height:112px;
+    height: 112px;
     width: 75px;
     vertical-align: middle;
 }

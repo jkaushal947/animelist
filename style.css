@@ -4,11 +4,16 @@ body {
 
 h1 {
     text-align: center;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Indie Flower', cursive;
     color: aliceblue;
+    font-size: 42px;
     word-spacing: 5px;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px #000000;
+}
+
+.title{
+    animation-name: bounceInUp;
 }
 
 table {
@@ -21,7 +26,7 @@ td {
     text-align: center;
     font-family: Open Sans, san-serif;
     color: azure;
-    font-size: 13px;
+    font-size: 13.5px;
     text-shadow: 2px 2px 4px #000000;
     height: 50px;
     padding: 5px;
@@ -34,11 +39,13 @@ td {
 }
 
 .preview {
-    height: 225px;
-    width: 150px;
-    display: block;
+    float: right;
+    height: 205px;
+    width: 130px;
     text-align: center;
     vertical-align: middle;
+    margin: 0.5em;
+  padding: 0.5em;
 }
 
 .thumb {
@@ -47,10 +54,40 @@ td {
     vertical-align: middle;
 }
 
-.normal {
-    border: 3px solid #000000;
-}
+
 
 .selected {
-    border: 3px solid #ffffff;
+    border: 2px solid #ffffff;
 }
+
+figcaption{
+    float: right;
+    font-family: Open Sans, san-serif;
+    color: azure;
+    font-size: 13.5px;
+    text-shadow: 2px 2px 4px #000000;
+    position: relative;
+    word-wrap: normal;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0.5em;
+  padding: 0.5em;
+}
+
+.button {
+  background-color:aqua;
+  border: none;
+  color: black;
+  padding: 6px 6px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}

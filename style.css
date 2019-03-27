@@ -13,6 +13,7 @@ h1 {
 }
 
 h2 {
+    font-family: Open Sans, san-serif;
     text-align: center;
 }
 
@@ -43,7 +44,6 @@ td {
 }
 
 .preview {
-    float: right;
     height: 205px;
     width: 130px;
     text-align: center;
@@ -62,8 +62,12 @@ td {
     border: 2px solid #ffffff;
 }
 
-figcaption {
+figure{
     float: right;
+    position: fixed;
+}
+
+figcaption {
     font-family: Open Sans, san-serif;
     color: azure;
     font-size: 13.5px;
@@ -78,8 +82,10 @@ figcaption {
 }
 
 .button {
-    background-color: aqua;
+    font-family: Open Sans, san-serif;
+    background-color:cadetblue;
     border: none;
+    border-radius: 4px;
     color: black;
     padding: 6px 6px;
     text-align: center;
@@ -96,7 +102,7 @@ figcaption {
 }
 
 .modal {
-    font-family: sans-serif;
+    font-family: Open Sans, san-serif;
     color: black;
     text-shadow: none;
     position: fixed;
@@ -112,6 +118,7 @@ figcaption {
 }
 
 .modal img {
+    animation-name:fadeIn;
     height: 200px;
     width: 120px;
     float: left;

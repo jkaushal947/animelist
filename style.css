@@ -127,9 +127,10 @@ figcaption {
 
 .modal img {
     animation-name:fadeIn;
-    height: 200px;
-    width: 120px;
+    height: 220px;
+    width: 115px;
     float: left;
+    padding: 0.5em;
 }
 
 .modal h2 {

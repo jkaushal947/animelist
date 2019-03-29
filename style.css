@@ -115,21 +115,20 @@ figcaption {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-/*.modal-content {
+.modal-body {
     position: absolute;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: white;
     width: 24rem;
     border-radius: 0.5rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}*/
+    text-align: left;
+}
 
-.modal img {
-    animation-name:fadeIn;
+.modal-body img {
     height: 220px;
-    width: 115px;
+    width: 120px;
     float: left;
     padding: 0.5em;
 }
@@ -187,16 +186,3 @@ figcaption {
     text-decoration: none;
     cursor: pointer;
 }
-
-
-.modal-body {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    width: 24rem;
-    border-radius: 0.5rem;
-    text-align: left;
-}
-

@@ -33,11 +33,6 @@ td {
     word-wrap: break-word;
 }
 
-/*table,
-td {
-    border: 1px solid black;
-}*/
-
 .preview {
     height: 205px;
     width: 130px;
@@ -96,7 +91,8 @@ figcaption {
 }
 
 .modal-button:hover {
-    opacity: 2;
+    background-color: aqua;
+    opacity: 1;
 }
 
 .modal {
@@ -200,3 +196,6 @@ figcaption {
     text-align: left;
 }
 
+a:link{
+    text-decoration:none;
+}

@@ -9,6 +9,7 @@ h1 {
     font-size: 32px;
     word-spacing: 5px;
     letter-spacing: 2px;
+    margin: 0em;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -37,8 +38,9 @@ td {
     height: 205px;
     width: 130px;
     text-align: center;
-    vertical-align: middle;
-    margin: 1.5em;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-right: 50px;
     padding: 0.5em;
     border-radius: 30px;
 }
@@ -50,14 +52,12 @@ td {
     border-radius: 6px;
 }
 
-.thumb:hover{
-    animation-name:fadeIn;
-}
 .selected {
     border: 2px solid #ffffff;
 }
 
-figure{
+figure {
+    position:sticky;
     float:right;
     display: inline-block;
 }
@@ -72,10 +72,12 @@ figcaption {
     display: block;
     text-align: center;
     vertical-align: middle;
+    margin-right: 50px;
 }
 
 .modal-button {
-    font-family: Open Sans, san-serif;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 2px 2px 4px #000000;
     background-color: cadetblue;
     border: none;
     border-radius: 4px;
@@ -91,7 +93,7 @@ figcaption {
 }
 
 .modal-button:hover {
-    background-color: aqua;
+    background-color:aquamarine;
     opacity: 1;
 }
 
@@ -112,18 +114,23 @@ figcaption {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-/*.modal-content {
+.modal-body {
     position: absolute;
-    background-color: #fefefe;
-    margin: auto;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: white;
     padding: 0;
     border: 1px solid #888;
     width: 24rem;
     border-radius: 0.5rem;
+    text-align: left;
+    margin:auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}*/
+}
 
 .modal img {
+    height: 100%;
     width: 115px;
     float: left;
     padding: 0.5em;
@@ -169,7 +176,6 @@ figcaption {
     }
 }
 
-/* The Close Button */
 .close {
     color: white;
     float: right;
@@ -183,19 +189,6 @@ figcaption {
     text-decoration: none;
     cursor: pointer;
 }
-
-
-.modal-body {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    width: 24rem;
-    border-radius: 0.5rem;
-    text-align: left;
-}
-
 a:link{
     text-decoration:none;
 }

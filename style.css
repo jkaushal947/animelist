@@ -153,6 +153,10 @@ figcaption {
     color:black;
 }
 
+a:link{
+    text-decoration:none;
+}
+
 @-webkit-keyframes animatetop {
     from {
         top: -300px;
@@ -178,7 +182,7 @@ figcaption {
 }
 
 .close {
-    color: white;
+    color: black;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -189,7 +193,4 @@ figcaption {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-}
-a:link{
-    text-decoration:none;
 }

@@ -6,7 +6,7 @@ h1 {
     text-align: center;
     font-family: 'Indie Flower', cursive;
     color: aliceblue;
-    font-size: 32px;
+    font-size: 40px;
     word-spacing: 5px;
     letter-spacing: 2px;
     margin: 0em;
@@ -17,17 +17,23 @@ h1 {
     animation-name: bounceInUp;
 }
 
-table, td {
+table,
+td {
     table-layout: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
 }
 
 td {
     text-align: center;
     font-family: Open Sans, san-serif;
     color: azure;
-    font-size: 10px;
+    font-size: 13px;
     text-shadow: 2px 2px 4px #000000;
     height: 50px;
     padding: 5px;
@@ -35,8 +41,8 @@ td {
 }
 
 .preview {
-    height: 205px;
-    width: 130px;
+    height: 255px;
+    width: 150px;
     text-align: center;
     vertical-align: top;
     margin-top: 50px;
@@ -46,8 +52,8 @@ td {
 }
 
 .thumb {
-    height: 112px;
-    width: 75px;
+    height: 152px;
+    width: 95px;
     vertical-align: middle;
     border-radius: 6px;
 }
@@ -57,8 +63,11 @@ td {
 }
 
 figure {
-    position:sticky;
-    float:right;
+    position: sticky;
+    top: 0;
+    float: right;
+    margin-top: 120px;
+    margin-right: 150px;
     display: inline-block;
 }
 
@@ -67,7 +76,7 @@ figcaption {
     color: azure;
     font-size: 14px;
     text-shadow: 2px 2px 4px #000000;
-    position: relative;
+    position: sticky;
     word-wrap: normal;
     display: block;
     text-align: center;
@@ -76,15 +85,15 @@ figcaption {
 }
 
 .modal-button {
-    font-family: 'Permanent Marker', cursive;
-    text-shadow: 2px 2px 4px #000000;
+    font-family: Open Sans, san-serif;
     background-color: cadetblue;
     border: none;
     border-radius: 4px;
     color: whitesmoke;
-    padding: 3px 6px;
+    padding: 7px 10px;
     text-align: center;
-    font-size: 11px;
+    font-size: 10.5px;
+    font-weight: bold;
     margin: 3px 2px;
     transition: 0.3s;
     display: inline-block;
@@ -93,13 +102,15 @@ figcaption {
 }
 
 .modal-button:hover {
-    background-color:aquamarine;
+    background-color: aquamarine;
+    text-shadow: 2px 2px 4px #000000;
     opacity: 1;
 }
 
 .modal {
     font-family: Open Sans, san-serif;
-    font-size: 12px;
+    font-size: 12.5px;
+    word-spacing: 1.5px;
     display: none;
     text-shadow: none;
     position: fixed;
@@ -110,7 +121,6 @@ figcaption {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -122,10 +132,10 @@ figcaption {
     background-color: white;
     padding: 0;
     border: 1px solid #888;
-    width: 24rem;
+    width: 35rem;
     border-radius: 0.5rem;
     text-align: left;
-    margin:auto;
+    margin: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-name: fadeIn;
 }
@@ -139,22 +149,23 @@ figcaption {
 }
 
 .modal h2 {
-    font-family: 'Indie Flower', cursive;
-    font-size:auto;
+    font-family: 'Permanent Marker';
+    font-size: 25px;
     text-align: center;
     letter-spacing: 2px;
-    color:black;
+    color: black;
 }
 
 .modal ul {
     list-style-type: none;
     margin: 0.5em;
     padding: 0.5em;
-    color:black;
+    color: black;
+    font-size: 11.5px;
 }
 
-a:link{
-    text-decoration:none;
+a:link {
+    text-decoration: none;
 }
 
 @-webkit-keyframes animatetop {
@@ -184,6 +195,7 @@ a:link{
 .close {
     color: black;
     float: right;
+    margin-right: 10px;
     font-size: 28px;
     font-weight: bold;
 }

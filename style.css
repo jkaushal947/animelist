@@ -1,8 +1,7 @@
 body {
-    background-image: url(images/totoro.jpg)
-        ,url(images/anime_sky_scenery.png);
-    background-repeat: repeat, no-repeat;
-    background-size:100px, cover;
+    background-image: url(images/anime_sky_scenery.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-blend-mode: overlay;
 }
 
@@ -117,7 +116,7 @@ figcaption {
     font-family: Open Sans, san-serif;
     font-size: 12.5px;
     word-spacing: 1.5px;
-    line-height:normal;
+    line-height: normal;
     display: none;
     text-shadow: none;
     position: fixed;
@@ -156,7 +155,7 @@ figcaption {
 }
 
 .modal h2 {
-    font-family: 'Permanent Marker';
+    font-family: 'Indie Flower', cursive;
     font-size: 25px;
     text-align: center;
     letter-spacing: 2px;
